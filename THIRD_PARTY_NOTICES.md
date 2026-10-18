@@ -13,3 +13,11 @@
 | lwIP | BSD-3-Clause | `licenses/lwIP-BSD.txt` |
 | libpng | libpng License | `licenses/libpng.txt` |
 | zlib | zlib License | `licenses/zlib.txt` |
+
+# 数据来源（1.3.0 起）
+
+| 内容 | 来源 | 说明 |
+|---|---|---|
+| 四城天气 | [Open-Meteo.com](https://open-meteo.com/) | 天气数据按 CC BY 4.0 许可使用；设备每 20 分钟联网读取一次，固件里不含天气数据 |
+| 农历日期、节气（2025 到 2036 年） | 香港天文台《公曆與農曆日期對照表》 | 编进固件的日期表由天文台年历文本逐日生成 |
+| 美股休市日、提前收盘日（2026 到 2028 年） | 纽约证券交易所官网 Holidays & Trading Hours | 交易时段按同页 NYSE Arca 时段 |
