@@ -19,8 +19,10 @@
 | SPIFFS（随 ESP-IDF） | MIT | `licenses/spiffs-MIT.txt` |
 | http_parser（随 ESP-IDF） | MIT | `licenses/http_parser-MIT.txt` |
 | FatFs（随 ESP-IDF） | FatFs 许可（类 BSD，一条款） | `licenses/FatFs.txt` |
+| esp_codec_dev（乐鑫音频编解码组件，含 ES8311 驱动） | Apache-2.0 | `licenses/Apache-2.0.txt` |
+| LVGL 内置的二维码生成库 qrcodegen（Project Nayuki） | MIT | `licenses/qrcodegen-MIT.txt` |
 
-1.4.1 起补列：LVGL 内置字体，以及几样随 ESP-IDF 分发、各有自己许可的库。
+1.4.1 起补列：LVGL 内置字体，以及几样随 ESP-IDF 分发、各有自己许可的库。1.5.0 起补列：esp_codec_dev（喇叭）与 qrcodegen（扫码绑定的二维码）。
 
 # 数据来源（1.3.0 起）
 
